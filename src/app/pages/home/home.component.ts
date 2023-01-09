@@ -13,11 +13,15 @@ export class HomeComponent implements OnInit, OnDestroy {
   ) { }
 
   public ngOnInit(): void {
-    console.log("On init")
+    console.log("On init");
   }
 
   public ngOnDestroy(): void{
-    console.log("On destroy")
+    console.log("On destroy");
+  }
+
+  public test(): void{
+    console.warn(data: "Eccomi");
   }
 
 }
